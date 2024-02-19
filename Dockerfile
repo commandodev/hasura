@@ -8,5 +8,5 @@ ENV HASURA_GRAPHQL_DEV_MODE=true
 
 ENV HASURA_GRAPHQL_PG_CONNECTIONS=15
 
-CMD graphql-engine --database-url $DATABASE_URL serve --server-port $PORT
+CMD graphql-engine --database-url $DATABASE_URL serve --port $PORT
 
